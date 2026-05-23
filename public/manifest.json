@@ -1,0 +1,39 @@
+{
+  "name": "Canasto — Comparador de Supers",
+  "short_name": "Canasto",
+  "description": "Comprá más barato en el Alto Valle. Comparamos precios en 14 supermercados.",
+  "theme_color": "#1FC87E",
+  "background_color": "#0A3D26",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/Canasto/",
+  "scope": "/Canasto/",
+  "lang": "es-AR",
+  "categories": ["shopping", "finance"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%230A3D26'/%3E%3Ccircle cx='62' cy='40' r='9' fill='%23E5FF6D'/%3E%3Ccircle cx='96' cy='34' r='9' fill='%23E5FF6D'/%3E%3Ccircle cx='130' cy='40' r='9' fill='%23E5FF6D'/%3E%3Cpath d='M34 72 L158 72 L145 152 Q145 164 133 164 L59 164 Q47 164 47 152 Z' stroke='%231FC87E' stroke-width='10' fill='none' stroke-linejoin='round'/%3E%3Cline x1='74' y1='90' x2='80' y2='150' stroke='%231FC87E' stroke-width='7'/%3E%3Cline x1='96' y1='90' x2='96' y2='150' stroke='%231FC87E' stroke-width='7'/%3E%3Cline x1='118' y1='90' x2='112' y2='150' stroke='%231FC87E' stroke-width='7'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%230A3D26'/%3E%3Ccircle cx='165' cy='105' r='24' fill='%23E5FF6D'/%3E%3Ccircle cx='256' cy='90' r='24' fill='%23E5FF6D'/%3E%3Ccircle cx='347' cy='105' r='24' fill='%23E5FF6D'/%3E%3Cpath d='M90 192 L422 192 L387 406 Q387 438 355 438 L157 438 Q125 438 125 406 Z' stroke='%231FC87E' stroke-width='26' fill='none' stroke-linejoin='round'/%3E%3Cline x1='197' y1='240' x2='213' y2='400' stroke='%231FC87E' stroke-width='18'/%3E%3Cline x1='256' y1='240' x2='256' y2='400' stroke='%231FC87E' stroke-width='18'/%3E%3Cline x1='315' y1='240' x2='299' y2='400' stroke='%231FC87E' stroke-width='18'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mi lista",
+      "url": "/Canasto/?screen=mylist",
+      "description": "Ver y editar mi lista de compras"
+    },
+    {
+      "name": "Comparar precios",
+      "url": "/Canasto/?screen=compare",
+      "description": "Comparar precios en supermercados"
+    }
+  ]
+}
